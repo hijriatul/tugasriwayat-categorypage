@@ -4,8 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
-
-
+import {Link}  from "react-router-dom";
 
 class Appbars extends React.Component {
     render() {
@@ -14,7 +13,7 @@ class Appbars extends React.Component {
             <div className={classes.AppBar}>
             <AppBar position="static">
               <Toolbar variant="dense">
-                <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+                <IconButton component={Link} to="/riwayat" edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                   <KeyboardBackspaceIcon />
                 </IconButton>
                 <Typography className={classes.Typography} variant="h5" color="inherit">

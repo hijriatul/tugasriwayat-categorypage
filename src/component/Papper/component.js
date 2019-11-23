@@ -9,8 +9,8 @@ class Papers extends React.Component {
         const {classes} = this.props;
         return (
             <div>
-                <Paper style={{marginTop:50}} className={classes.papper}>
-                    <Grid container spacing={5}>
+                <Paper style={{marginTop:40}} className={classes.papper}>
+                    <Grid container spacing={2}>
                         <Grid item >
                         <Avatar style={{marginLeft:25}} className={classes.avatar}>
                             <PersonIcon />

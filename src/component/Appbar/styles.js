@@ -5,7 +5,7 @@ const style = {
     },
     Typography : {
         textAlign:'center',
-        marginLeft: 180,
+        marginLeft: 150,
     }
 };
 export default style;

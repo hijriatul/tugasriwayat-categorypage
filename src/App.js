@@ -6,6 +6,7 @@ import Category from './container/CategoryPage'
 class Component extends React.Component {
   render() {
     return(
+      
       <Switch>
         <Route path="/riwayat" exact component={Riwayat} />
         <Route path="/category" exact component={Category} />
