@@ -1,19 +1,16 @@
-import React from 'react'
-import {Switch, Route} from 'react-router-dom'
-import Riwayat from './container/RiwayatPage'
-import Category from './container/CategoryPage'
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import Home from './pages/home';
+import About from './pages/about';
 
-class Component extends React.Component {
-  render() {
-    return(
-      
+function App() {
+  return (
+    <React.Fragment>
       <Switch>
-        <Route path="/riwayat" exact component={Riwayat} />
-        <Route path="/category" exact component={Category} />
-
+        <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
       </Switch>
-    );
-  }
+    </React.Fragment>
+  );
 }
-
-export default Component;
+export default App;
