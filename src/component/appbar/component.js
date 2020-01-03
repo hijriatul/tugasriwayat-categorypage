@@ -15,7 +15,7 @@ function Apps() {
             backgroundColor: 'pink',
             height: 60
           }}>
-          <Typography style={{ marginLeft: 170, marginTop: 7 }} variant="h4">
+          <Typography style={{ marginTop: 7, marginLeft: 170 }} variant="h4">
             AppBar
           </Typography>
         </AppBar>
